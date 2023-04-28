@@ -16,7 +16,7 @@
     // 서버 객체를 생성 
         // createServer 메소드 사용
         // 메소드로 콜백 함수를 전달
-    const server = net.createServer( (client, ) => {
+    const server = net.createServer( (client) => {
         // 클라가 이 서버에 연결이 되면 > 이 callback 함수가 실행 
 
         // 클라이언트가 데이터를 보내서, 서버에서 데이터를 받으면, 어떻게 하지? > 서버가 응답해줘야 겠지 

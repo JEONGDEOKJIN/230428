@@ -15,6 +15,7 @@ socket.on('connect', () => {
     socket.write('데이터 전송');
 })
 
+
 socket.on("data", (data)=>{
     // TCP 소켓에서 데이터를 받으면 콜백 함수 실행
     console.log("받은 데이터 : ",data)
